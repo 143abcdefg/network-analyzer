@@ -6,7 +6,7 @@ Designed specifically as an engineering portfolio project, it showcases low-leve
 
 ---
 
-## 🌟 Key Features
+##  Key Features
 
 *   **Multi-Layer Protocol Parsing:** Decodes Ethernet, IPv4, TCP (including flags), UDP, ICMP, DNS (queries and resolutions), and HTTP.
 *   **Real-Time Analytics Dashboard:**
@@ -23,7 +23,7 @@ Designed specifically as an engineering portfolio project, it showcases low-leve
 
 ---
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 *   **Programming Language:** Python
 *   **Packet Handling Engine:** Scapy
@@ -44,48 +44,7 @@ network-analyzer/
 └── README.md       # Project documentation (this file)
 ```
 
----
 
-## ⚙️ Installation & Setup
-
-### 1. Clone or Move to the Directory
-Ensure all project files are located in your working folder:
-```bash
-cd /Users/nujuom/Downloads/network-analyzer
-```
-
-### 2. Create a Virtual Environment (Recommended)
-```bash
-python3 -m venv venv
-source venv/bin/activate
-```
-
-### 3. Install Dependencies
-```bash
-pip install -r requirements.txt
-```
-
----
-
-## 🚀 Running the Application
-
-### Option A: Running in Demo/Simulation Mode (Recommended for Demos)
-You do **not** need administrator privileges to run the simulator. Simply execute:
-```bash
-streamlit run app.py
-```
-This will open your default browser to `http://localhost:8501`. Toggle **Start Sniffer** in the sidebar, and you will see realistic traffic metrics, live charts, and mock threat warnings populate in real-time.
-
-### Option B: Running in Live Capture Mode (Requires Admin/Sudo)
-To capture real packets flowing through your physical Wi-Fi or Ethernet card:
-1. Open a terminal and run the Streamlit app.
-2. (Optional) On macOS or Linux, raw socket capture requires administrative access. You can run the dashboard with elevated privileges:
-```bash
-sudo streamlit run app.py
-```
-3. Set the Sniffing Mode to **"Live Sniffing"** in the sidebar, select your network adapter interface (e.g., `en0` on macOS), and click **Start Sniffer**.
-
----
 
 ## 🔬 Computer Engineering Concepts Implemented
 
